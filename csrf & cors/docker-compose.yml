@@ -1,0 +1,7 @@
+services:
+  cors-lab:
+    build: .
+    container_name: cors-lab
+    ports:
+      - "8080:80"
+    restart: unless-stopped
